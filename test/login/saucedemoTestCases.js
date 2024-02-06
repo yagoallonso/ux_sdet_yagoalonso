@@ -21,7 +21,7 @@ describe('Test Case 1: Login with Valid Credentials', async () => {
         await expect(productName).toBeDisplayed();
     });
     it('Test Case 3: Verify Sort Button', async () => {
-        // Selecionar a opção de classificação de baixo para cima (lohi)
+
         const sortByPriceOptionlohi = $('option[value="lohi"]');
         await sortByPriceOptionlohi.click();
         await browser.pause(2000);
